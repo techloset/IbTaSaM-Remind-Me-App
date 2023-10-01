@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "next": "latest",
-    "react": "^17.0.2",
-    "react-dom": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-elastic-carousel": "^0.11.5",
     "react-icons": "^4.11.0",
     "tailwindcss-animated": "^1.0.1"
