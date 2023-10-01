@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "next": "latest",
-    "react": "^18.2.0",
+    "react": "^17.0.2",
     "react-dom": "latest",
     "react-elastic-carousel": "^0.11.5",
     "react-icons": "^4.11.0",
