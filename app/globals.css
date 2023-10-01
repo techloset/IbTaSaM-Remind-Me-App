@@ -2,10 +2,5 @@
 @tailwind components;
 @tailwind utilities;
 
-.heroImage {
-    background-image: url('../public/images/hero-image.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-height: 200vh;
-}
+
 

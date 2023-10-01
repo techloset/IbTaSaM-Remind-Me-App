@@ -16,7 +16,7 @@ export default function page() {
       <Features />
       <Notification />
       <Download />
-      <Client />
+      {/* <Client /> */}
       <Footer />
     </>
   )
