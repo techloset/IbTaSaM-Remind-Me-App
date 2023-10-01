@@ -6,7 +6,7 @@ import ellipse from '../../../public/images/svg/ellipse.svg'
 const Download = () => {
     return (
         <>
-            <div className="xl:max-w-[1440px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] mx-auto w-full my-16">
+            <div id='download' className="xl:max-w-[1440px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] mx-auto w-full my-16">
 
                 <div className='bg-[#2D76F9] py-[50px] md:py-[70px] lg:py-[100px] flex flex-col flex-wrap content-center rounded-[35px] md:rounded-[50px] lg:rounded-[50px] overflow-hidden'>
 

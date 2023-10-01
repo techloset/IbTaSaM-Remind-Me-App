@@ -8,9 +8,11 @@ import serviceImg3 from '../../../public/images/services-images/serviceImg3.png'
 const Services = () => {
     return (
         <>
-            <section>
-                <div className="container mx-auto px-[5%]">
-                    <div className="grid md:grid-cols-3 gap-5 my-20 border">
+            <section className="xl:max-w-[1440px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] mx-auto w-full my-16">
+
+                <div className="md:my-24">
+
+                    <div className="grid md:grid-cols-3 gap-5">
 
                         <ServicesCard
                             imgSrc={serviceImg1}
@@ -30,9 +32,10 @@ const Services = () => {
                             description="Of course you will always get the tasks and schedule notifications"
                         />
 
-
                     </div>
+
                 </div>
+
             </section>
         </>
     )
