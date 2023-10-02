@@ -5,7 +5,7 @@ import Image from "next/image"
 const ClientData = (props) => {
     return (
         <>
-            <Item>
+            <Item className="mx-w-[540%]">
                 <h1 className='text-2xl font-bold text-[#212121]'>{props.heading}</h1>
 
                 <div className='flex my-10'>
@@ -18,7 +18,7 @@ const ClientData = (props) => {
                     </div>
                 </div>
 
-                <p className=' sm:w-[75%] md:w-full lg:pe-14 leading-8 text-[#212121]'>{props.description}</p>
+                <p className='lg:pe-14 leading-8 text-[#212121]'>{props.description}</p>
             </Item>
 
         </>

@@ -16,7 +16,7 @@ const Header = () => {
 
                         <div className="px-[1.5rem] md:px-[3rem] lg:px-[6rem]">
 
-                            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mt-10 md:mt-20 text-[#212121]"><span className="mb-2 lg:mb-4 inline-block">Manage</span> <br /><span className="mb-2 lg:mb-4 inline-block">Schedule and </span> <br /> Task Easy</h1>
+                            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mt-10 md:mt-20 text-[#212121]"><span className="mb-2 lg:mb-4 inline-block font-Poppins">Manage</span> <br /><span className="mb-2 lg:mb-4 inline-block">Schedule and </span> <br /> Task Easy</h1>
 
                             <p className="mt-8 leading-8 text-[#747474]">Create and organize schedule and task deadline become better, easy manage and certainly no longer lagging behind schedule of activities and task</p>
 
