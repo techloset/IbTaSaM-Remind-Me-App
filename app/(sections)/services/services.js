@@ -1,7 +1,7 @@
-import ServicesCard from "@/app/(components)/servicesCard/ServicesCard";
 import serviceImg1 from "@/public/images/services-images/serviceImg1.png";
 import serviceImg2 from "@/public/images/services-images/serviceImg2.png";
 import serviceImg3 from "@/public/images/services-images/serviceImg3.png";
+import ServicesCard from "../../(components)/servicesCard/ServicesCard";
 
 const Services = () => {
   return (
