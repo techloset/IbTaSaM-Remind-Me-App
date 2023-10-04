@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import reviewsImage from "@/public/images/reviews.png";
-import ClientSlider from "@/app/(sections)/client/clientSlider";
+import ClientSlider from "./ClientSlider";
 
 const Client = () => {
   return (
