@@ -9,7 +9,7 @@
     position: absolute;
     width: 4rem;
     height: 4rem;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     border-radius: 50%;
     font-size: 1.2rem;
     display: flex;
@@ -17,11 +17,11 @@
     align-items: center;
     cursor: pointer;
   }
-  
+/*   
   .slick-icons--left,
   .slick-icons--right {
     font-size: 2rem;
-  }
+  } */
   
   .slick-icons--left {
     bottom: -5rem;

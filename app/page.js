@@ -6,20 +6,18 @@ import Notification from "./(sections)/notification/notification";
 import Download from "./(sections)/download/download";
 import Client from "./(sections)/client/client";
 import Footer from "./(components)/footer/footer";
-import SimpleSlider from "./simpleSlider";
 
 export default function page() {
   return (
     <>
-      <SimpleSlider />
-      {/* <Navbar /> */}
-      {/* <Header />
+      <Navbar />
+      <Header />
       <Services />
       <Features />
       <Notification />
       <Download />
       <Client />
-      <Footer /> */}
+      <Footer />
     </>
   );
 }
