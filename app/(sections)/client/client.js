@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import reviewsImage from "@/public/images/reviews.png";
-import clientSlider from "./clientSlider";
+import ClientSlider from "@/app/(components)/slider/clientSlider";
 const Client = () => {
   return (
     <section className="max-w-[100%]  mx-auto w-full">
@@ -15,7 +15,7 @@ const Client = () => {
             />
           </div>
           <div className="w-72 sm:w-96 md:w-full mx-auto px-3 sm:px-10 lg:px-20 md:py-20">
-            <clientSlider />
+            <ClientSlider />
           </div>
         </div>
       </div>
