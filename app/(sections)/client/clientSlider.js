@@ -1,7 +1,7 @@
 "use client";
 import profile from "@/public/images/profile-images/Profile.png";
 import profile1 from "@/public/images/profile-images/Profile1.png";
-import ClientData from "@/app/(components)/clientData/ClientData";
+import ClientData from '../../(components)/clientData/clientData'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
