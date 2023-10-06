@@ -37,6 +37,7 @@ function ClientSlider() {
     </div>
   );
 }
+
 const PrevIcon = ({ onClick }) => {
   return (
     <div className="absolute bottom-[-60px] text-3xl cursor-pointer inline-block md:ms-4">

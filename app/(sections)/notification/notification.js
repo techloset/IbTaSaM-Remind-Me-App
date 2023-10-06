@@ -4,18 +4,18 @@ import notificationImage from "@/public/images/notification.png";
 const Notification = () => {
   return (
     <section className="xl:max-w-[1440px] mx-auto w-full">
-      <div className="h-full my-16">
+      <div className="h-full">
         <div className="grid md:grid-cols-2 gap-5">
           <div className="md:hidden">
             <Image src={notificationImage} alt="" className="w-full h-full" />
           </div>
           <div className="h-full flex items-center">
-            <div className="px-8 lg:ps-32 lg:pe-24">
-              <h1 className="text-lg sm:text-2xl lg:text-3xl mb-4 md:mb-7 lg:mb-10 font-semibold text-_dark">
-                Get the highest priority <br />
-                application notification
+            <div className="px-[1.5rem] md:px-[3rem] lg:pl-[6rem] lg:pr-0 leading-relaxed">
+              <h1 className="text-2xl md:text-3xl lg:text-4xl py-5 md:py-8 font-semibold text-_dark">
+                Get the highest priority
+                <span className="md:my-5 block">application notification</span>
               </h1>
-              <p className="text-sm sm:text-md md:text-lg lg:text-xl text-_gray leading-6 lg:leading-10">
+              <p className="text-[18px] text-_gray leading-[40px] lg:w-[493px]">
                 The best feature makes you better, with the latest technology to
                 meet your needs. Of course, with such features as organizing
                 schedules and leading assignments, it will make you easier, So

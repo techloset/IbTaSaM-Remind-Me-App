@@ -30,7 +30,7 @@ const Footer = () => {
               Remind<span className="text-_blue">me</span>
             </span>
           </Link>
-          <p className="text-_gray md:text-md sm:pe-80 md:pe-24 pt-4 md:pt-10 leading-[170%]">
+          <p className="text-_gray md:text-md sm:pe-80 md:pe-24 pt-8 md:pt-10 leading-[36px]">
             Task deadlines and scheduling applications with various benefits and
             advantages
           </p>
@@ -81,9 +81,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="mt-5 md:mt-3">
+        <div className="mt-8 md:mt-3">
           <h3 className="font-semibold text-xl text-_dark">Follow Us</h3>
-          <div className="flex text-3xl pt-4 md:pt-10">
+          <div className="flex text-3xl pt-7 md:pt-10">
             <Link href="https://www.facebook.com/" target="_blank">
               <BiLogoFacebook className="text-_blue hover:text-_gray cursor-pointer" />
             </Link>

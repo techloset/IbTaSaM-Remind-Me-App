@@ -8,7 +8,7 @@ const Navbar = () => {
   const [open, setopen] = useState(null);
   return (
     <div className="bg-opacity-0 md:sticky top-0 z-10">
-      <div className="xl:mx-auto xl:max-w-[1440px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] flex py-5 justify-between text-[16px] font-semibold select-none transition-all ease-linear duration-650">
+      <div className="xl:mx-auto xl:max-w-[1440px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] flex py-6 justify-between text-[16px] font-semibold select-none transition-all ease-linear duration-650">
         <Link href="/" class="flex items-center lg:hidden">
           <div className="p-1 bg-_lightBlue rounded-md rotate-45">
             <svg

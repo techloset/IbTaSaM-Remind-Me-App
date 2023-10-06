@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ClientData = (props) => {
   return (
-    <div className="mx-w-[540%]">
+    <div className="mx-w-[540%] my-3">
       <h1 className="text-2xl font-bold text-dark">{props.heading}</h1>
       <div className="flex my-10">
         <Image src={props.profile} width={80} height={80} />
@@ -11,7 +11,7 @@ const ClientData = (props) => {
           <h3 className="text-_gray text-xs">{props.edu}</h3>
         </div>
       </div>
-      <p className="lg:pe-14 leading-8 text-_dark">{props.description}</p>
+      <p className="text-[12.7px] md:text-[18px] lg:pe-14 leading-[36px] text-_dark">{props.description}</p>
     </div>
   );
 };
