@@ -25,12 +25,12 @@ const Download = () => {
 
         <Image
           src={img1}
-          alt="img"
+          alt="img1"
           className="w-auto h-32 lg:h-[300px] absolute top-[0%] bottom-[-0%] z-[0] rounded-br-[50%]"
         />
         <Image
           src={img2}
-          alt="img"
+          alt="img2"
           className="w-auto h-32 lg:h-[300px] absolute right-[6%] sm:right-[3.5%] md:right-[5%] lg:right-[7.2%] bottom-[-0%] z-[0] rounded-br-[50%]"
         />
       </div>
