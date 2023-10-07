@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import reviewsImage from "@/public/images/reviews.png";
-import ClientSlider from "@/app/(components)/slider/clientSlider";
+import ClientSlider from "@/app/(components)/Slider/ClientSlider";
 const Client = () => {
   return (
     <section className="max-w-[100%]  mx-auto w-full">

@@ -1,6 +1,7 @@
-import Button from "@/app/(components)/button/button";
+import Button from "@/app/(components)/Button/Button";
 import Image from "next/image";
-import img from "@/public/images/ellipse11.png";
+import img1 from "@/public/images/ellipse12.png";
+import img2 from "@/public/images/ellipse11.png";
 const Download = () => {
   return (
     <div
@@ -21,17 +22,18 @@ const Download = () => {
             btnClass="md:ms-8 mt-5 md:mt-0 bg-_blue px-10 py-3 rounded-full text-white hover:text-_dark hover:bg-_white outline hover:outline-_blue"
           />
         </div>
-        <img
-          // src={ellipse}
-          alt=""
-          className="h-[300px] md:h-[350px] xl:h-[400px] w-auto absolute bottom-[-60%] right-[-27%] lg:right-[-15%] z-[0]"
+
+        <Image
+          src={img1}
+          alt="img"
+          className="w-auto h-32 lg:h-[300px] absolute top-[0%] bottom-[-0%] z-[0] rounded-br-[50%]"
         />
-      <Image
-        src={img}
-        alt="img"
-        className="w-auto h-16 lg:h-[300px] absolute right-[8.7%] bottom-[-0%] z-[0]"
+        <Image
+          src={img2}
+          alt="img"
+          className="w-auto h-32 lg:h-[300px] absolute right-[6%] sm:right-[3.5%] md:right-[5%] lg:right-[7.2%] bottom-[-0%] z-[0] rounded-br-[50%]"
         />
-        </div>
+      </div>
     </div>
   );
 };

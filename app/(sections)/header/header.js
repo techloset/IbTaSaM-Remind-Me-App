@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Button from "@/app/(components)/button/button";
+import Button from "@/app/(components)/Button/Button";
 import img from "@/public/images/hero-image.png";
 
 const Header = () => {

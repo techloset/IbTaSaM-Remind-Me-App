@@ -1,11 +1,11 @@
 import serviceImg1 from "@/public/images/services-images/serviceImg1.png";
 import serviceImg2 from "@/public/images/services-images/serviceImg2.png";
 import serviceImg3 from "@/public/images/services-images/serviceImg3.png";
-import ServicesCard from "../../(components)/servicesCard/servicesCard";
+import ServicesCard from "../../(components)/ServicesCard/ServicesCard";
 
 const Services = () => {
   return (
-    <section className="xl:max-w-[1440px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] mx-auto w-full mt-[180vh] sm:mt-[220vh] md:mt-[130vh] lg:mt-[110vh]">
+    <section className="xl:max-w-[1440px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] mx-auto w-full mt-[245vh] sm:mt-[270vh] md:mt-[185vh] lg:mt-[180vh xl:mt-[105vh]">
       <div className="grid md:grid-cols-3 gap-5">
         <ServicesCard
           imgSrc={serviceImg1}
