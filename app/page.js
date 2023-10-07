@@ -1,10 +1,10 @@
-import Header from "./(sections)/Header/Header";
+import Header from "./(sections)/header/header";
 import Navbar from "./(components)/Navbar/Navbar";
-import Services from "./(sections)/Services/Services";
-import Features from "./(sections)/Features/Features";
-import Notification from "./(sections)/Notification/Notification";
-import Download from "./(sections)/Download/Download";
-import Client from "./(sections)/Client/Client";
+import Services from "./(sections)/services/Services";
+import Features from "./(sections)/features/features";
+import Notification from "./(sections)/notification/notification";
+import Download from "./(sections)/download/download";
+import Client from "./(sections)/client/client";
 import Footer from "./(components)/Footer/Footer";
 
 export default function page() {
