@@ -11,7 +11,7 @@ export default function page() {
   return (
     <>
       <Navbar className="relative" />
-      <div className="font-poppins flex flex-col gap-12 md:gap-16 lg:gap-36">
+      <div className="flex flex-col gap-12 md:gap-16 lg:gap-36">
         <Header />
         <Services />
         <Features />
@@ -19,7 +19,7 @@ export default function page() {
         <Download />
         <Client />
       </div>
-        <Footer />
+      <Footer />
     </>
   );
 }

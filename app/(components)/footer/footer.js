@@ -3,7 +3,7 @@ import { BiLogoFacebook, BiLogoTwitter, BiLogoLinkedin } from "react-icons/bi";
 
 const Footer = () => {
   return (
-    <div className="xl:max-w-[1440px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] mx-auto w-full my-16">
+    <div className="xl:max-w-[1440px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] mx-auto w-full mt-44 md:mt-0 my-16">
       <div className="grid md:grid-cols-3">
         <div>
           <Link href="/" class="flex items-center">

@@ -42,19 +42,17 @@ const PrevIcon = ({ onClick }) => {
   return (
     <div className="absolute bottom-[-60px] text-3xl cursor-pointer inline-block md:ms-4">
       <BsArrowLeft
-        className=" hover:-translate-x-2 saturate-150 duration-700 text-_dark hover:text-_blue"
+        className="text-_dark hover:text-_blue ml-20 md:ml-0"
         onClick={onClick}
       />
     </div>
   );
 };
+
 const NextIcon = ({ onClick }) => {
   return (
-    <div className="absolute bottom-[-60px] text-3xl cursor-pointer inline-block ms-20">
-      <BsArrowRight
-        className="hover:translate-x-2 saturate-150 duration-700 text-_dark hover:text-_blue"
-        onClick={onClick}
-      />
+    <div className="absolute bottom-[-60px] text-3xl cursor-pointer inline-block ms-40 md:ms-20">
+      <BsArrowRight className="text-_dark hover:text-_blue" onClick={onClick} />
     </div>
   );
 };

@@ -4,10 +4,10 @@ import img from "@/public/images/hero-image.png";
 
 const Header = () => {
   return (
-    <section className="xl:max-w-[1440px] mx-auto w-full absolute top-0">
+    <section className="xl:max-w-[1440px] mx-auto w-full md:absolute top-0">
       <div className="grid md:grid-cols-2">
         <div className="px-[1.5rem] md:px-[3rem] lg:px-[6rem] my-8">
-          <h1 className="text-[48px] md:text-[56px] lg:text-[63px] font-bold mt-24 md:mt-20">
+          <h1 className="text-[48px] md:text-[56px] lg:text-[63px] font-bold mt-14 md:mt-20">
             Manage Schedule and Task Easy
           </h1>
           <p className="text-[16px] md:text-[18px] text-_gray leading-[36px] mt-7">
