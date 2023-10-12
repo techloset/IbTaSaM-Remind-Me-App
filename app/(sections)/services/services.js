@@ -1,6 +1,6 @@
-import serviceImg1 from "@/public/images/services-images/serviceImg1.png";
-import serviceImg2 from "@/public/images/services-images/serviceImg2.png";
-import serviceImg3 from "@/public/images/services-images/serviceImg3.png";
+import serviceImg1 from "@/public/images/services-images/uim_schedule.svg";
+import serviceImg2 from "@/public/images/services-images/uim_layer-group.svg";
+import serviceImg3 from "@/public/images/services-images/ri_notification-fill.svg";
 import ServicesCard from "../../(components)/servicesCard/servicesCard";
 
 const Services = () => {

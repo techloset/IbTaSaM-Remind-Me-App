@@ -1,7 +1,8 @@
 import Button from "@/app/(components)/button/Button";
 import Image from "next/image";
-import img1 from "@/public/images/ellipse12.png";
-import img2 from "@/public/images/ellipse11.png";
+import img1 from "@/public/images/svg/Ellipse 12.svg";
+import img2 from "@/public/images/svg/Ellipse 11.svg";
+
 const Download = () => {
   return (
     <div
@@ -26,12 +27,12 @@ const Download = () => {
         <Image
           src={img1}
           alt="img1"
-          className="w-auto h-32 lg:h-[300px] absolute top-[0%] bottom-[-0%] z-[0] rounded-br-[50%]"
+          className="w-auto h-32 lg:h-[300px] absolute top-[0%] bottom-[-0%] z-[0]"
         />
         <Image
           src={img2}
           alt="img2"
-          className="w-auto h-32 lg:h-[300px] absolute right-[6%] sm:right-[3.5%] md:right-[5%] lg:right-[7.2%] bottom-[-0%] z-[0] rounded-br-[50%]"
+          className="w-auto h-32 lg:h-[300px] absolute right-[6%] sm:right-[3.5%] md:right-[5%] lg:right-[7.2%] bottom-[-0%] z-[0]"
         />
       </div>
     </div>
