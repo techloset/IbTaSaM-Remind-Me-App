@@ -1,4 +1,4 @@
-import Button from "@/app/(components)/button/Button";
+import Button from "@/app/(components)/button/button";
 import Image from "next/image";
 import img1 from "@/public/images/svg/Ellipse 12.svg";
 import img2 from "@/public/images/svg/Ellipse 11.svg";
@@ -19,8 +19,8 @@ const Download = () => {
             btnClass="bg-_white px-10 py-3 rounded-full hover:text-_white hover:bg-_blue  hover:outline hover:outline border border-_white"
           />
           <Button
-            btnTitle="Download App"
-            btnClass="md:ms-8 mt-5 md:mt-0 bg-_blue px-10 py-3 rounded-full text-white hover:text-_dark hover:bg-_white outline hover:outline-_blue"
+            btnTitle="About App"
+            btnClass="md:ms-8 mt-5 md:mt-0 bg-_blue px-12 py-3 rounded-full text-white hover:text-_dark hover:bg-_white outline hover:outline-_blue"
           />
         </div>
 
