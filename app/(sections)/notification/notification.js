@@ -15,7 +15,7 @@ const Notification = () => {
                 Get the highest priority
                 <span className="md:my-5 block">application notification</span>
               </h1>
-              <p className="text-[18px] text-_gray leading-[40px] lg:w-[493px]">
+              <p className="text-[18px] text-_gray leading-[40px] lg:w-[460px]">
                 The best feature makes you better, with the latest technology to
                 meet your needs. Of course, with such features as organizing
                 schedules and leading assignments, it will make you easier, So

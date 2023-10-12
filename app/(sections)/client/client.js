@@ -1,11 +1,10 @@
-"use client";
 import Image from "next/image";
 import reviewsImage from "@/public/images/reviews.png";
 import ClientSlider from "@/app/(components)/slider/clientSlider";
 const Client = () => {
   return (
     <section className="max-w-[100%]  mx-auto w-full">
-      <div className="h-full md:my-28">
+      <div className="h-full md:mb-24">
         <div className="grid md:grid-cols-2 gap-5">
           <div className="hidden md:block">
             <Image
