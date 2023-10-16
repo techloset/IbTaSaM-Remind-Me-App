@@ -8,13 +8,12 @@ const Navbar = () => {
   const [open, setopen] = useState(null);
   return (
     <div className="bg-opacity-0 md:sticky top-0 z-10">
-      <div className="xl:mx-auto xl:max-w-[1440px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] flex py-6 justify-between text-[16px] font-semibold select-none transition-all ease-linear duration-650">
+      <div className="xl:mx-auto xl:max-w-[1440px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] flex py-8 justify-between text-[16px] font-semibold select-none transition-all ease-linear duration-650">
         <Link href="/" class="flex items-center lg:hidden">
-          <div className="p-1 bg-_lightBlue rounded-md rotate-45">
+          <div className="p-1 bg-_lightBlue rounded-md rotate-45 w-[40px] h-[40px] flex items-center justify-center">
             <svg
+              className="w-[30px] h-[30px]"
               xmlns="http://www.w3.org/2000/svg"
-              width="25"
-              height="25"
               viewBox="0 0 18 18"
               fill="none"
             >
@@ -30,7 +29,7 @@ const Navbar = () => {
             </svg>
           </div>
 
-          <span class="self-center text-xl font-semibold whitespace-nowrap ms-4 text-_dark">
+          <span class="self-center text-[18px] font-[700] whitespace-nowrap ms-6 leading-normal text-_dark">
             Remind<span className="text-_blue">me</span>
           </span>
         </Link>
@@ -43,20 +42,19 @@ const Navbar = () => {
         </span>
 
         <ul
-          className={`block absolute px-[1.5rem] md:px-[3rem] lg:flex align-right lg:items-center !z-[100] transition-all ease-in duration-500 w-[100%] left-0 top-0 lg:w-auto lg:z-auto lg:static  lg:bg-none  lg:space-x-20 space-y-2.5 lg:space-y-0 my-auto opacity-100 p-3 lg:p-0   
+          className={`block absolute px-[1.5rem] md:px-[3rem] lg:flex align-right lg:items-center !z-[100] transition-all ease-in duration-500 w-[100%] left-0 top-0 lg:w-auto lg:z-auto lg:static  lg:bg-none  lg:space-x-14 space-y-2.5 lg:space-y-0 my-auto opacity-100 p-3 lg:p-0   
                             ${
                               open
-                                ? " top-[63px] opacity-100 h-[100vh] lg:h-0 lg:bg-transparent bg-_white space-y-10"
+                                ? " top-[63px] opacity-100 h-[100vh] lg:h-0 lg:bg-transparent bg-_white space-y-11"
                                 : " top-[-300px] opacity-0"
                             }`}
         >
           <li className="hidden lg:inline-block">
             <Link href="/" class="flex items-center">
-              <div className="p-1 bg-_lightBlue rounded-md rotate-45">
+              <div className="p-1 bg-_lightBlue rounded-md rotate-45 w-[40px] h-[40px] flex items-center justify-center">
                 <svg
+                  className="w-[30px] h-[30px]"
                   xmlns="http://www.w3.org/2000/svg"
-                  width="25"
-                  height="25"
                   viewBox="0 0 18 18"
                   fill="none"
                 >
@@ -72,33 +70,33 @@ const Navbar = () => {
                 </svg>
               </div>
 
-              <span class="self-center text-xl font-semibold whitespace-nowrap ms-4 text-_dark">
+              <span class="self-center text-[18px] font-[700] whitespace-nowrap ms-6 leading-normal text-_dark">
                 Remind<span className="text-_blue">me</span>
               </span>
             </Link>
           </li>
-          <li className="text-_dark hover:text-_blue">
+          <li className="text-_blue text-[18px] font-[700] leading-normal">
             <Link href="/">Home</Link>
           </li>
-          <li className="text-_dark hover:text-_blue">
+          <li className="text-_dark hover:text-_blue text-[18px] font-[400] leading-normal">
             <Link href="#features" to="">
               Features
             </Link>
           </li>
-          <li className="text-_dark hover:text-_blue">
+          <li className="text-_dark hover:text-_blue text-[18px] font-[400] leading-normal">
             <Link href="#download">About us</Link>
           </li>
           <li className="lg:hidden">
             <Button
               btnTitle="About App"
-              btnClass="bg-transparent px-8 py-2 rounded-full text-sm text-_blue hover:bg-_blue hover:text-_white border border-_blue inline-block transition all ease"
+              btnClass="bg-transparent px-8 py-2 rounded-full text-[18px] font-[400] text-_blue hover:bg-_blue hover:text-_white border border-_blue inline-block transition all ease"
             />
           </li>
         </ul>
         <div className="hidden lg:inline-block">
           <Button
             btnTitle="About App"
-            btnClass="bg-transparent px-8 py-2 rounded-full text-sm text-_blue hover:bg-_blue hover:text-_white border border-_blue inline-block transition all ease"
+            btnClass="bg-transparent px-8 py-2 rounded-full text-[18px] font-[400] text-_blue hover:bg-_blue hover:text-_white border border-_blue inline-block transition all ease"
           />
         </div>
       </div>

@@ -10,10 +10,10 @@ const Client = () => {
             <Image
               src={reviewsImage}
               alt="Client image"
-              className="w-full h-full md:rounded-r-[10%]"
+              className="max-w-[700px] max-h-[600px] md:rounded-r-[100px]"
             />
           </div>
-          <div className="max-w-[380px] sm:w-96 md:w-full mx-auto px-3 sm:px-10 lg:px-20 md:py-20">
+          <div className="max-w-[380px] md:max-w-full mx-auto px-3 sm:px-10 lg:px-20 md:py-20">
             <ClientSlider />
           </div>
         </div>

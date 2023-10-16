@@ -8,7 +8,7 @@ const ClientData = (props) => {
       </h1>
       <div className="flex my-10">
         <Image src={props.profile} width={75} height={75} />
-        <div className="ms-5 my-2">
+        <div className="ms-8 my-2">
           <h1 className="mb-4 text-_dark text-[18px] font-[600] leading-normal">
             {props.name}
           </h1>
@@ -17,7 +17,7 @@ const ClientData = (props) => {
           </h3>
         </div>
       </div>
-      <p className="text-[18px] font-[400] lg:pe-14 leading-[36px] text-_dark">
+      <p className="text-[18px] font-[400] lg:pe-14 leading-[36px] text-_dark py-6">
         {props.description}
       </p>
     </div>

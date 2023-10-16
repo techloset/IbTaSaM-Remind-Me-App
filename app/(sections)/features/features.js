@@ -13,11 +13,10 @@ const Features = () => {
           />
           <div className="h-full flex items-center">
             <div className="px-8 lg:ps-32 lg:pe-24">
-              <h1 className="text-2xl md:text-3xl lg:text-[34px] py-5 md:py-8 font-semibold text-_dark">
-                Set up task and schedule
-                <span className="md:my-5 block">with a best features</span>
+              <h1 className="text-[24px] md:text-[36px] py-5 md:py-8 font-[600] leading-[40px] md:leading-[65px] text-_dark">
+                Set up task and schedule with a best features
               </h1>
-              <p className="text-[18px] text-_gray leading-[40px]">
+              <p className="text-[18px] font-[400] text-_gray leading-[36px]">
                 The best feature makes you better, with the latest technology to
                 meet your needs. Of course, with such features as organizing
                 schedules and leading assignments, it will make you easier, So

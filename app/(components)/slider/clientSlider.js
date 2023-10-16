@@ -40,7 +40,7 @@ function ClientSlider() {
 
 const PrevIcon = ({ onClick }) => {
   return (
-    <div className="absolute bottom-[-60px] cursor-pointer inline-block md:ms-4">
+    <div className="absolute bottom-[-60px] cursor-pointer inline-block">
       <BsArrowLeft
         className="w-[42px] h-[42px] text-_blue ml-24 md:ml-0 "
         onClick={onClick}

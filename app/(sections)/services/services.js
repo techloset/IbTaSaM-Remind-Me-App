@@ -5,7 +5,7 @@ import ServicesCard from "../../(components)/servicesCard/servicesCard";
 
 const Services = () => {
   return (
-    <section className="xl:max-w-[1440px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] mx-auto w-full md:mt-[170vh] lg:mt-[180vh] xl:mt-[105vh]">
+    <section className="xl:max-w-[1440px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] mx-auto w-full">
       <div className="grid md:grid-cols-3 gap-5">
         <ServicesCard
           imgSrc={serviceImg1}
