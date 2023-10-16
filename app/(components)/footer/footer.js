@@ -3,15 +3,14 @@ import { BiLogoFacebook, BiLogoTwitter, BiLogoLinkedin } from "react-icons/bi";
 
 const Footer = () => {
   return (
-    <div className="xl:max-w-[1440px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] mx-auto w-full mt-44 md:mt-0 my-16">
+    <div className="xl:max-w-[1440px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] mx-auto w-full mt-40 md:mt-0 my-16">
       <div className="grid md:grid-cols-3">
         <div>
           <Link href="/" class="flex items-center">
-            <div className="p-2 bg-_lightBlue rounded-md rotate-45">
+            <div className="bg-_lightBlue rounded-md rotate-45 w-[55px] h-[55px] md:w-[80px] md:h-[80px] flex items-center justify-center">
               <svg
+                className="w-[42px] h-[42px] md:w-[60px] md:h-[60px]"
                 xmlns="http://www.w3.org/2000/svg"
-                width="30"
-                height="30"
                 viewBox="0 0 18 18"
                 fill="none"
               >
@@ -26,31 +25,33 @@ const Footer = () => {
                 />
               </svg>
             </div>
-            <span class="self-center text-3xl font-semibold whitespace-nowrap text-_dark ms-6">
+            <span class="self-center text-[23px] md:text-[36px] font-[700] whitespace-nowrap text-_dark ms-10">
               Remind<span className="text-_blue">me</span>
             </span>
           </Link>
-          <p className="text-_gray md:text-md sm:pe-80 md:pe-20 pt-8 md:pt-10 leading-[36px]">
+          <p className="text-_gray text-[18px] font-[400] sm:pe-80 md:pe-16 py-12 md:py-0 md:pt-11 leading-[36px]">
             Task deadlines and scheduling applications with various benefits and
             advantages
           </p>
         </div>
-        <div className="mt-5 md:mt-3">
+        <div className="md:mt-6">
           <div className="grid grid-cols-2">
             <div>
-              <h3 className="font-semibold text-xl text-_dark">Sitemaps</h3>
-              <ul className="pt-4 md:pt-10">
-                <li className="cursor-pointer text-_gray text-sm sm:text-md hover:text-_blue transition-all ease-in delay-150">
+              <h3 className="font-[600] text-[24px] leading-[36px] text-_dark">
+                Sitemaps
+              </h3>
+              <ul className="py-10 md:pt-14">
+                <li className="cursor-pointer text-_gray text-[18px] font-[400] leading-[36px] hover:text-_blue transition-all ease-in delay-150">
                   <Link href="/">
                     <span className="text-_blue text-xl">• </span> Home
                   </Link>
                 </li>
-                <li className="cursor-pointer text-_gray text-sm sm:text-md hover:text-_blue transition-all ease-in delay-150">
+                <li className="cursor-pointer text-_gray text-[18px] font-[400] leading-[36px] hover:text-_blue transition-all ease-in delay-150">
                   <Link href="#features">
                     <span className="text-_blue text-xl">• </span> Feature
                   </Link>
                 </li>
-                <li className="cursor-pointer text-_gray text-sm sm:text-md hover:text-_blue transition-all ease-in delay-150">
+                <li className="cursor-pointer text-_gray text-[18px] font-[400] leading-[36px] hover:text-_blue transition-all ease-in delay-150">
                   <Link href="#download">
                     <span className="text-_blue text-xl">• </span> About
                   </Link>
@@ -58,20 +59,22 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h3 className="font-semibold text-xl text-_dark">Advantages</h3>
-              <ul className="pt-4 md:pt-10">
-                <li className="cursor-pointer text-_gray text-sm sm:text-md hover:text-_blue transition-all ease-in delay-150">
+              <h3 className="font-[600] text-[24px] leading-[36px] text-_dark">
+                Advantages
+              </h3>
+              <ul className="py-10 md:pt-14">
+                <li className="cursor-pointer text-_gray text-[18px] font-[400] leading-[36px] hover:text-_blue transition-all ease-in delay-150">
                   <Link href="">
                     <span className="text-_blue text-xl">• </span> Set Task
                     Better
                   </Link>
                 </li>
-                <li className="cursor-pointer text-_gray text-sm sm:text-md hover:text-_blue transition-all ease-in delay-150">
+                <li className="cursor-pointer text-_gray text-[18px] font-[400] leading-[36px] hover:text-_blue transition-all ease-in delay-150">
                   <Link href="">
                     <span className="text-_blue text-xl">• </span> Easy Manage
                   </Link>
                 </li>
-                <li className="cursor-pointer text-_gray text-sm sm:text-md hover:text-_blue transition-all ease-in delay-150">
+                <li className="cursor-pointer text-_gray text-[18px] font-[400] leading-[36px] hover:text-_blue transition-all ease-in delay-150">
                   <Link href="">
                     <span className="text-_blue text-xl">• </span> Get
                     Notification
@@ -81,17 +84,19 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="mt-8 md:mt-3 lg:ml-12">
-          <h3 className="font-semibold text-xl text-_dark">Follow Us</h3>
-          <div className="flex text-3xl pt-7 md:pt-10">
+        <div className="md:mt-6 lg:ml-12">
+          <h3 className="font-[600] text-[24px] leading-[36px] text-_dark">
+            Follow Us
+          </h3>
+          <div className="flex text-3xl pt-9 md:pt-14">
             <Link href="https://www.facebook.com/" target="_blank">
-              <BiLogoFacebook className="text-_blue hover:text-_gray cursor-pointer" />
+              <BiLogoFacebook className="text-_blue hover:text-_gray cursor-pointer w-[36px] h-[36px]" />
             </Link>
             <Link href="https://twitter.com/" target="_blank">
-              <BiLogoTwitter className="mx-10 text-_blue hover:text-_gray cursor-pointer" />
+              <BiLogoTwitter className="mx-10 text-_blue hover:text-_gray cursor-pointer w-[36px] h-[36px]" />
             </Link>
             <Link href="https://www.linkedin.com/" target="_blank">
-              <BiLogoLinkedin className="text-_blue hover:text-_gray cursor-pointer" />
+              <BiLogoLinkedin className="text-_blue hover:text-_gray cursor-pointer w-[36px] h-[36px]" />
             </Link>
           </div>
         </div>

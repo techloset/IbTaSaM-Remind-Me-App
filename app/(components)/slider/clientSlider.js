@@ -40,9 +40,9 @@ function ClientSlider() {
 
 const PrevIcon = ({ onClick }) => {
   return (
-    <div className="absolute bottom-[-60px] text-3xl cursor-pointer inline-block md:ms-4">
+    <div className="absolute bottom-[-60px] cursor-pointer inline-block md:ms-4">
       <BsArrowLeft
-        className="text-_dark hover:text-_blue ml-20 md:ml-0"
+        className="w-[42px] h-[42px] text-_blue ml-24 md:ml-0 "
         onClick={onClick}
       />
     </div>
@@ -51,8 +51,8 @@ const PrevIcon = ({ onClick }) => {
 
 const NextIcon = ({ onClick }) => {
   return (
-    <div className="absolute bottom-[-60px] text-3xl cursor-pointer inline-block ms-40 md:ms-20">
-      <BsArrowRight className="text-_dark hover:text-_blue" onClick={onClick} />
+    <div className="absolute bottom-[-60px] cursor-pointer inline-block ms-52 md:ms-20">
+      <BsArrowRight className="w-[42px] h-[42px] text-_blue" onClick={onClick} />
     </div>
   );
 };

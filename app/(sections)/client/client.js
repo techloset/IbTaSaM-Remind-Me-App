@@ -13,7 +13,7 @@ const Client = () => {
               className="w-full h-full md:rounded-r-[10%]"
             />
           </div>
-          <div className="w-80 sm:w-96 md:w-full mx-auto px-3 sm:px-10 lg:px-20 md:py-20">
+          <div className="max-w-[380px] sm:w-96 md:w-full mx-auto px-3 sm:px-10 lg:px-20 md:py-20">
             <ClientSlider />
           </div>
         </div>
