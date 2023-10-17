@@ -42,7 +42,7 @@ const PrevIcon = ({ onClick }) => {
   return (
     <div className="absolute bottom-[-60px] cursor-pointer inline-block">
       <BsArrowLeft
-        className="w-[42px] h-[42px] text-_blue ml-24 md:ml-0 "
+        className="w-[42px] h-[42px] text-_blue ml-28 md:ml-0 "
         onClick={onClick}
       />
     </div>
@@ -51,7 +51,7 @@ const PrevIcon = ({ onClick }) => {
 
 const NextIcon = ({ onClick }) => {
   return (
-    <div className="absolute bottom-[-60px] cursor-pointer inline-block ms-52 md:ms-20">
+    <div className="absolute bottom-[-60px] cursor-pointer inline-block ms-48 md:ms-20">
       <BsArrowRight className="w-[42px] h-[42px] text-_blue" onClick={onClick} />
     </div>
   );

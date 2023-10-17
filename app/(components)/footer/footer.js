@@ -3,13 +3,13 @@ import { BiLogoFacebook, BiLogoTwitter, BiLogoLinkedin } from "react-icons/bi";
 
 const Footer = () => {
   return (
-    <div className="xl:max-w-[1440px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] mx-auto w-full mt-40 md:mt-0 my-16">
+    <div className="xl:max-w-[1440px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] mx-auto w-full mt-40 md:mt-36 my-16">
       <div className="grid md:grid-cols-3">
         <div>
           <Link href="/" class="flex items-center">
-            <div className="bg-_lightBlue rounded-md rotate-45 w-[55px] h-[55px] md:w-[80px] md:h-[80px] flex items-center justify-center">
+            <div className="ml-3 bg-_lightBlue rounded-md rotate-45 w-[50px] h-[50px] md:w-[70px] md:h-[70px] flex items-center justify-center">
               <svg
-                className="w-[42px] h-[42px] md:w-[60px] md:h-[60px]"
+                className="w-[36px] h-[36px] md:w-[50px] md:h-[50px]"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 18 18"
                 fill="none"
@@ -25,7 +25,7 @@ const Footer = () => {
                 />
               </svg>
             </div>
-            <span class="self-center text-[23px] md:text-[36px] font-[700] whitespace-nowrap text-_dark ms-10">
+            <span class="self-center text-[23.494px] md:text-[36px] font-[700] whitespace-nowrap text-_dark ms-8 md:ms-10">
               Remind<span className="text-_blue">me</span>
             </span>
           </Link>
