@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import Button from "@/app/(components)/button/Button";
+import Button from "@/app/(components)/button/button";
 
 const Navbar = () => {
   const [open, setopen] = useState(null);

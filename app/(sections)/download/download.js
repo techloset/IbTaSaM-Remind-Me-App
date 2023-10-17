@@ -1,4 +1,4 @@
-import Button from "@/app/(components)/button/Button";
+import Button from "@/app/(components)/button/button";
 import Image from "next/image";
 import img1 from "@/public/images/svg/Ellipse 12.svg";
 import img2 from "@/public/images/svg/Ellipse 11.svg";
