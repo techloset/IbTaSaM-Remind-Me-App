@@ -3,8 +3,8 @@ import { BiLogoFacebook, BiLogoTwitter, BiLogoLinkedin } from "react-icons/bi";
 
 const Footer = () => {
   return (
-    <div className="xl:max-w-[1440px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] mx-auto w-full mt-40 md:mt-36 my-16">
-      <div className="grid md:grid-cols-3">
+    <div className="xl:max-w-[1440px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] mx-auto w-full mt-40 sm:mt-32 md:mt-36 my-16">
+      <div className="grid lg:grid-cols-3">
         <div>
           <Link href="/" class="flex items-center">
             <div className="ml-3 bg-_lightBlue rounded-md rotate-45 w-[50px] h-[50px] md:w-[70px] md:h-[70px] flex items-center justify-center">
@@ -29,7 +29,7 @@ const Footer = () => {
               Remind<span className="text-_blue">me</span>
             </span>
           </Link>
-          <p className="text-_gray text-[18px] font-[400] sm:pe-80 md:pe-16 py-12 md:py-0 md:pt-11 leading-[36px]">
+          <p className="text-_gray text-[18px] font-[400] w-[350px] md:w-[387px] py-12 md:py-0 md:pt-11 leading-[36px]">
             Task deadlines and scheduling applications with various benefits and
             advantages
           </p>

@@ -1,4 +1,4 @@
-import Button from "@/app/(components)/button/Button";
+import Button from "@/app/(components)/button/button";
 import Image from "next/image";
 import img1 from "@/public/images/svg/Ellipse 12.svg";
 import img2 from "@/public/images/svg/Ellipse 11.svg";
@@ -7,11 +7,11 @@ const Download = () => {
   return (
     <div
       id="download"
-      className="xl:max-w-[1440px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] mx-auto w-full relative"
+      className="xl:max-w-[1440px] px-[1.5rem] md:px-[3rem] lg:px-[6rem] w-full relative "
     >
-      <div className="max-w-[350px] h-[469px] md:max-w-[1240px] md:h-[500px] bg-[#2D76F9] relative hover:shadow-2xl hover:transition-all hover:delay-100 md:py-[70px] lg:py-[100px] flex flex-col flex-wrap content-center items-center justify-center rounded-[35px] md:rounded-[50px] lg:rounded-[50px] overflow-hidden">
-        <div className="max-w-[276px] pb-14 md:pb-8 lg:pb-20 text-center md:max-w-[756px] z-[1]">
-          <p className="text-[24px] md:text-[36px] text-white font-[600] leading-[36px] md:leading-[65px]">
+      <div className="w-full h-[469px] xl:w-[1240px] xl:h-[500px] bg-[#2D76F9] relative md:py-[70px] lg:py-[100px] flex flex-col content-center items-center justify-center rounded-[25px] md:rounded-[50px] lg:rounded-[50px] overflow-hidden">
+        <div className="w-[276px] sm:w-[500px] pb-14 md:pb-8 lg:pb-20 text-center xl:w-[756px] z-[1]">
+          <p className="text-[24px] sm:text-[30px] xl:text-[36px] text-white font-[600] leading-[36px] md:leading-[65px]">
             Download an app now and the various benefits you will get
             immediately
           </p>

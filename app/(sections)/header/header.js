@@ -1,13 +1,13 @@
 import Image from "next/image";
-import Button from "@/app/(components)/button/Button";
+import Button from "@/app/(components)/button/button";
 import img from "@/public/images/hero-image.png";
 
 const Header = () => {
   return (
     <section className="xl:max-w-[1440px] mx-auto w-full">
       <div className="grid md:grid-cols-2">
-        <div className="px-[1.5rem] md:px-[3rem] lg:px-[6rem] flex flex-col justify-center">
-          <p className="text-[48px] md:text-[56px] lg:text-[64px] font-[600] leading-[85px] mt-12 md:mt-24">
+        <div className="sm:px-[1.5rem] md:px-[3rem] lg:px-[6rem] flex flex-col justify-center w-[350px] sm:w-full mx-auto">
+          <p className="text-[48px] md:text-[56px] lg:text-[64px] font-[600] leading-[85px] mt-12 md:mt-3 lg:mt-10 xl:mt-24">
             Manage Schedule and Task Easy
           </p>
           <p className="text-[19px] font-[400] md:text-[18px] text-_gray leading-[36px] mt-8">
@@ -25,7 +25,7 @@ const Header = () => {
         <div className="flex md:justify-end  md:absolute top-0 right-0">
           <Image
             src={img}
-            className="w-full h-full md:w-[700px] md:h-[850px] md:rounded-bl-[10%]"
+            className="w-full h-full md:w-[450px] lg:w-[600px] xl:w-[700px] md:h-[850px] md:rounded-bl-[10%]"
           />
         </div>
       </div>

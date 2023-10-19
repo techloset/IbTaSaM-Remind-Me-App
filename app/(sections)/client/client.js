@@ -10,7 +10,7 @@ const Client = () => {
             <Image
               src={reviewsImage}
               alt="Client image"
-              className="max-w-[700px] max-h-[600px] md:rounded-r-[100px]"
+              className="w-full h-full md:rounded-r-[100px]"
             />
           </div>
           <div className="max-w-[380px] md:max-w-full mx-auto px-3 sm:px-10 lg:px-20 md:py-20">
